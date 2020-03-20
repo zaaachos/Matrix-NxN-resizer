@@ -8,7 +8,8 @@ You are NOT allowed any third party libraries or modules.
 ### Example
 To illustrate what is expected, have a look at how we scaled a 4x4 image to a 16x16 image.
 4x4 Image
->[[1,2,3,4],[5,6,7,8],
+>[[1,2,3,4],
+[5,6,7,8],
 [9,10,11,12],
 [13,14,15,16]]
 
