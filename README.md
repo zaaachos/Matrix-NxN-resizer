@@ -1,3 +1,4 @@
+# Code Challenge from Tech with Tim Discord Server [Tech with Tim](https://discord.gg/K4pFxX)
 # The story
 ``Tim is creating a machine learning model that finds the presence of a circle in grayscale images. All of his training data is already preprocessed and the correct size, after training the model he sees it’s getting an accuracy of 100%! However, he is unable to use the model on any images that aren’t the same size as his training data, which are all images of size 64x64. Unfortunately, he can’t find any new images of that size to test his model with. In fact, the only images he can find are SQUARE and have a width and height that are factors of 64. He can find images of the following size: 32x32, 16x16, 8x8, 4x4, 2x2, 1x1. He needs a way to scale these images to the size 64x64 so that he can use them to test his model. Can you help him?``
 
