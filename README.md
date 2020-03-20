@@ -8,13 +8,13 @@ You are NOT allowed any third party libraries or modules.
 ### Example
 To illustrate what is expected, have a look at how we scaled a 4x4 image to a 16x16 image.
 4x4 Image
-[[1,2,3,4],
+>[[1,2,3,4],
 [5,6,7,8],
 [9,10,11,12],
 [13,14,15,16]]
 
 16x16 Image
-[[1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4],
+>[[1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4],
  [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4],
  [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4],
  [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4],
@@ -34,11 +34,11 @@ To illustrate what is expected, have a look at how we scaled a 4x4 image to a 16
 
 And here is another example of scaling a 2x2 image to a 4x4.
 2x2 Image
-[[1,2],
+>[[1,2],
 [3,4]]
 
 4x4 Image
-[[1, 1, 2, 2], 
+>[[1, 1, 2, 2], 
 [1, 1, 2, 2], 
 [3, 3, 4, 4], 
 [3, 3, 4, 4]]
