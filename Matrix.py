@@ -1,5 +1,6 @@
 
-def function(matrix):
+def function(matrix):                   # matrix should be a two-dimensional list like examples in README.md
+     
      SixFour = [[1 for i in range(64)] for j in range(64)]      # 64 x 64 Matrix Initialization
      ThirtyTwo = [[1 for i in range(32)] for j in range(32)]         # 32 x 32 Matrix Initialization
      SixTeen = [[1 for i in range(16)] for j in range(16)]              # 16 x 16 Matrix Initialization
@@ -31,7 +32,8 @@ def function(matrix):
           print("Your given matrix has some items, which are not Integers")
 
 
-     capped = len(SixFour)//len(matrix)                # store the capped size, in order to change our values in 64 x 64 matrix.
+     capped = len(SixFour)//len(matrix)                # try to calculate the equivalent index of the given matrix for 64 x 64 matrix.
+                                                       # to understand, watch the examples in the README.md
 
      """ Now we change our values and resize our n x n matrix into 64 x 64 matrix. """
      for x in range(len(SixFour)):
